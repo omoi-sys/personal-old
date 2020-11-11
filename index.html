@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abraham's Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body">
+  <nav class ="navigation">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./resume.html">Resume</a>
+    <a href="./weather.html">Weather</a>
+  </nav>
+  <!--Div for carousel based on W3 -->
+  <div class="slider">
+    <div class="welcome">Welcome</div>
+    <div>
+      <img class="slide" src="./images/blue-universe-956981.jpg">
+      <div class="caption">Pexels stock image, all rights reserved.</div>
+    </div>
+    <div>
+      <img class="slide" src="./images/programming-code-abstract-screen-of-software-developer-2194062.jpg">
+      <div class="caption">Pexels stock image</div>
+    </div>
+    <div>
+      <img class="slide" src="./images/agave-arid-blue-sky-clouds-410074.jpg">
+      <div class="caption">Pexels stock image, all rights reserved.</div>
+    </div>
+    <button id="button" class="left" onclick="plusDivs(-1)">&#10094;</button>
+    <button id="button" class="right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

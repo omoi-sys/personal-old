@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather</title>
+  <link rel="stylesheet" type="text/css" href="resume.css">
+  <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="stylesheet" type="text/css" href="weather.css"> 
+</head>
+<body>
+  <nav class ="navigation">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./resume.html">Resume</a>
+    <a href="./weather.html">Weather</a>
+  </nav>
+<div class="container">
+  <section>
+    <header>
+    <h5>
+      Weather Forecast
+    </h5>
+    </header>
+    <form method="GET">
+    <fieldset>
+    <legend>Query</legend>
+      <fieldset>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+        <label for="country">Country:</label>
+        <input type="text" name="country" id="country">
+        <input type="submit" id="submit">
+      </fieldset>
+    </fieldset>
+    </form>
+    <div>
+      <h2>Weather at Location</h2>
+      <ul id="results">
+        <li><span>City: </span><span id="cityName"></span></li>
+        <li><span>Current Temperature: </span><span id="temp"></span></li>
+        <li><span>Wind Speed: </span><span id="wind"></span></li>
+        <li><span></span>Humidity: </span><span id="humidity"></span></li>
+      </ul>
+    </div>
+    </form>
+  </section>
+</div>
+<div class="container">
+  <p>
+    <h1>JavaScript code for this page.</h1>
+  </p>
+</div>
+<div class="container">
+  <div class="jsBox">
+    <script async src="https://jsfiddle.net/abe186/rgx3wt8p/1/embed/js/dark/"></script>
+  </div>
+</div>
+  <script type="text/javascript" src="weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+header {
+  position: relative;
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(235, 235, 255);
+  z-index: 1;
+}
+
+section {
+  max-width: 704px;
+  block-size: 50%;
+  color:rgb(224, 224, 233);
+  box-sizing: border-box;
+}
+
+section p {
+  font-family: monospace;
+  word-wrap: normal;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  background: rgb(73, 73, 82);
+}
+
+.navigation {
+  text-align: center;
+  z-index: 2;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  
+.navigation a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+.navigation a:hover {
+  background: #ddd;
+  color: black;
+}

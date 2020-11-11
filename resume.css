@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+section {
+    text-align: left;
+}
+
+section a {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.break {
+  display: block;
+  margin: 1em 0px 1em 0px;
+}
+
+.contact {
+  color: rgb(219, 223, 15);
+  text-decoration: none;
+}
+
+.area {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+ul {
+  font-family: monospace;
+  word-wrap: normal;
+  font-size: 16px;
+  line-height: 1.5em;
+}

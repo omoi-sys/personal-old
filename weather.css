@@ -1,0 +1,17 @@
+.jsBox {
+  height: 400px;
+  width: 650px;
+  border: 1px;
+  border-style: solid;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+}
